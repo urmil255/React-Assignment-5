@@ -18,7 +18,7 @@ fetch("https://randomuser.me/api/?results=5")
 
         // Update the table body with the generated data
         document.getElementById("table_body").innerHTML = tableData;
-    })
+    })  
     .catch((error) => {
         console.error("Error fetching data:", error);
     });
